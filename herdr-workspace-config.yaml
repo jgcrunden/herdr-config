@@ -1,0 +1,15 @@
+profiles:
+  - id: default
+    name: Default
+    description: |
+      Two tabs, one with Neovim, one with a terminal
+    tabs:
+      - name: editor
+        panes:
+          - id: editor
+            name: editor
+            command: nvim .
+      - name: terminal
+        panes:
+          - id: terminal
+            name: terminal
