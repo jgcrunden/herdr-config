@@ -1,6 +1,12 @@
 # herdr-config
 Configuration for my herdr setup
 
+## add config
+```bash
+mkdir -p ~/.config/herdr
+cp config.toml ~/.config/herdr
+```
+
 ## plugins install
 ```bash
 herdr plugin install zackshen/herdr-workspace -y
