@@ -1,5 +1,8 @@
 onboarding = false
 
+[ui]
+sidebar_start_collapsed = true
+
 [keys]
 prefix = "ctrl+a"
 focus_pane_left = ""
